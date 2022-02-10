@@ -2,4 +2,6 @@
 FROM openresty/openresty:latest
 
 # Add the configuration file
-COPY nginx.conf /etc/nginx/conf.d/nginx.conf
+COPY default.conf /etc/nginx/conf.d/default.conf
+
+COPY *.lua /etc/nginx/resty/
