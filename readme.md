@@ -1,6 +1,5 @@
 
-IMAGE=eu.gcr.io/gft-db-dbmigration/nginx-cloud-run:1.0.13
-
+IMAGE=eu.gcr.io/gft-db-dbmigration/nginx-cloud-run:1.0.15
 
 docker build . -t $IMAGE
 
